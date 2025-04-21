@@ -48,7 +48,7 @@ namespace Zoo_Management_Project.Zoo.WebApi.Controllers
             var fs = new FeedingSchedule(
                 Guid.NewGuid(),
                 r.AnimalId,
-                dateTime,     // теперь передаём корректный DateTime
+                dateTime,
                 r.FoodType
             );
             await _repo.AddAsync(fs);
