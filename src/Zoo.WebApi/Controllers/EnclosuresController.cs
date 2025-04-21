@@ -19,7 +19,7 @@ namespace Zoo_Management_Project.Zoo.WebApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<EnclosureDto>> GetAll()
         {
-            var all = await _repo.GetAllAsync();    // <-- убеждаемся, что метод называется именно так
+            var all = await _repo.GetAllAsync();
             return all
                 .Select(e => new EnclosureDto(
                     e.Id,
