@@ -34,7 +34,7 @@ namespace Zoo_Management_Project.Zoo.WebApi.Controllers
                 a.Name,
                 a.BirthDate,
                 a.Gender,
-                a.FavoriteFood,    // <- исправлено
+                a.FavoriteFood,
                 a.Status,
                 a.EnclosureId
             ));
