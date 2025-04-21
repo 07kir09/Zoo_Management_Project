@@ -22,7 +22,6 @@ Zoo Management API Project
 4. WebApi – слой представления, реализует REST API (контроллеры и DTO).
 
 Основные технологии:
-- C#, .NET 8, ASP.NET Core Web API.
 - Swagger (Swashbuckle) для автоматической документации API.
 
 Как запустить проект
